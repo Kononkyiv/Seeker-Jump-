@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3389ba702e3dd64d8df7747bfa6d623, type: 3}
+  m_Name: GameDifficultySettings
+  m_EditorClassIdentifier: Assembly-CSharp::GameDifficultySettings
+  tiers:
+  - scoreThreshold: 0
+    level:
+      extraPlatformsPerRowMax: 4
+      maxHorizontalStep: 4
+      safePathNormal: 0.8
+      safePathMoving: 0.2
+      safePathVanish: 0
+      extraNormal: 0.8
+      extraMoving: 0.2
+      extraVanish: 0
+      extraBreakable: 0
+      movingPlatformSpeedMultiplier: 1
+      springChance: 0.018
+      hatChance: 0.015
+      backpackChance: 0
+      shieldChance: 0
+      enemiesEnabled: 1
+      enemyBaseSpawnChance: 0.092
+      enemyMaxSpawnChance: 0.152
+      enemyDifficultyGrowthRate: 0
+      maxEnemiesOnScreen: 0
+      perEnemySettings: []
+      blackHolesEnabled: 0
+      blackHoleSpawnChance: 0
+      maxBlackHolesOnScreen: 2
+      blackHolePullForceMultiplier: 0.3
+  - scoreThreshold: 1000
+    level:
+      extraPlatformsPerRowMax: 3
+      maxHorizontalStep: 3
+      safePathNormal: 0.6
+      safePathMoving: 0.3
+      safePathVanish: 0.1
+      extraNormal: 0.6
+      extraMoving: 0.2
+      extraVanish: 0.1
+      extraBreakable: 0.1
+      movingPlatformSpeedMultiplier: 1.129
+      springChance: 0.018
+      hatChance: 0.015
+      backpackChance: 0.013
+      shieldChance: 0.016
+      enemiesEnabled: 1
+      enemyBaseSpawnChance: 0.092
+      enemyMaxSpawnChance: 0.152
+      enemyDifficultyGrowthRate: 0
+      maxEnemiesOnScreen: 1
+      perEnemySettings:
+      - enemyType: 3
+        enabled: 1
+        spawnWeightMultiplier: 0.445
+        speedMultiplier: 1.797
+      - enemyType: 0
+        enabled: 1
+        spawnWeightMultiplier: 0.445
+        speedMultiplier: 1.445
+      blackHolesEnabled: 0
+      blackHoleSpawnChance: 0
+      maxBlackHolesOnScreen: 2
+      blackHolePullForceMultiplier: 0.3
+  - scoreThreshold: 2000
+    level:
+      extraPlatformsPerRowMax: 2
+      maxHorizontalStep: 2
+      safePathNormal: 0.5
+      safePathMoving: 0.4
+      safePathVanish: 0.1
+      extraNormal: 0.2
+      extraMoving: 0.4
+      extraVanish: 0.2
+      extraBreakable: 0.1
+      movingPlatformSpeedMultiplier: 1.334
+      springChance: 0.015
+      hatChance: 0.012
+      backpackChance: 0.011
+      shieldChance: 0.014
+      enemiesEnabled: 1
+      enemyBaseSpawnChance: 0.199
+      enemyMaxSpawnChance: 0.36
+      enemyDifficultyGrowthRate: 0.00155
+      maxEnemiesOnScreen: 1
+      perEnemySettings:
+      - enemyType: 0
+        enabled: 1
+        spawnWeightMultiplier: 0.25
+        speedMultiplier: 1.015
+      - enemyType: 1
+        enabled: 1
+        spawnWeightMultiplier: 0.25
+        speedMultiplier: 1.055
+      - enemyType: 2
+        enabled: 1
+        spawnWeightMultiplier: 0.25
+        speedMultiplier: 0.774
+      - enemyType: 3
+        enabled: 1
+        spawnWeightMultiplier: 0.25
+        speedMultiplier: 1.321
+      blackHolesEnabled: 1
+      blackHoleSpawnChance: 0.122
+      maxBlackHolesOnScreen: 1
+      blackHolePullForceMultiplier: 1
+  - scoreThreshold: 5000
+    level:
+      extraPlatformsPerRowMax: 2
+      maxHorizontalStep: 1
+      safePathNormal: 0.2
+      safePathMoving: 0.4
+      safePathVanish: 0.4
+      extraNormal: 0.1
+      extraMoving: 0.4
+      extraVanish: 0.4
+      extraBreakable: 0.1
+      movingPlatformSpeedMultiplier: 1.5
+      springChance: 0.012
+      hatChance: 0.009
+      backpackChance: 0.007
+      shieldChance: 0.012
+      enemiesEnabled: 1
+      enemyBaseSpawnChance: 0.199
+      enemyMaxSpawnChance: 0.36
+      enemyDifficultyGrowthRate: 0.00155
+      maxEnemiesOnScreen: 1
+      perEnemySettings:
+      - enemyType: 0
+        enabled: 1
+        spawnWeightMultiplier: 0.25
+        speedMultiplier: 1.015
+      - enemyType: 1
+        enabled: 1
+        spawnWeightMultiplier: 0.25
+        speedMultiplier: 1.055
+      - enemyType: 2
+        enabled: 1
+        spawnWeightMultiplier: 0.25
+        speedMultiplier: 0.774
+      - enemyType: 3
+        enabled: 1
+        spawnWeightMultiplier: 0.25
+        speedMultiplier: 1.321
+      blackHolesEnabled: 1
+      blackHoleSpawnChance: 0.122
+      maxBlackHolesOnScreen: 1
+      blackHolePullForceMultiplier: 1
+  - scoreThreshold: 8000
+    level:
+      extraPlatformsPerRowMax: 1
+      maxHorizontalStep: 1
+      safePathNormal: 0.1
+      safePathMoving: 0.4
+      safePathVanish: 0.5
+      extraNormal: 0.1
+      extraMoving: 0.4
+      extraVanish: 0.4
+      extraBreakable: 0.1
+      movingPlatformSpeedMultiplier: 1.5
+      springChance: 0.008
+      hatChance: 0.005
+      backpackChance: 0.003
+      shieldChance: 0.002
+      enemiesEnabled: 1
+      enemyBaseSpawnChance: 0.322
+      enemyMaxSpawnChance: 0.409
+      enemyDifficultyGrowthRate: 0.00155
+      maxEnemiesOnScreen: 1
+      perEnemySettings:
+      - enemyType: 0
+        enabled: 1
+        spawnWeightMultiplier: 0.25
+        speedMultiplier: 1.015
+      - enemyType: 1
+        enabled: 1
+        spawnWeightMultiplier: 0.25
+        speedMultiplier: 1.055
+      - enemyType: 2
+        enabled: 1
+        spawnWeightMultiplier: 0.25
+        speedMultiplier: 0.774
+      - enemyType: 3
+        enabled: 1
+        spawnWeightMultiplier: 0.25
+        speedMultiplier: 1.321
+      blackHolesEnabled: 1
+      blackHoleSpawnChance: 0.135
+      maxBlackHolesOnScreen: 1
+      blackHolePullForceMultiplier: 1

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf75bd38843dcc48b0bf332f1f40ce4, type: 3}
+  m_Name: RoboEnemyConfig
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyConfig
+  type: 2
+  maxHealth: 2
+  damage: 1
+  moveSpeed: 1.5
+  scoreReward: 100
+  spawnWeight: 0.175
+  idleSprites:
+  - {fileID: 21300000, guid: f7c1f08ba34d67345ad9b0ca53e6b085, type: 3}
+  - {fileID: 21300000, guid: 98e2181671575f04b92ba7365b7b7b06, type: 3}
+  - {fileID: 21300000, guid: a5b00bfe7827d6d498031ffe698e2088, type: 3}
+  - {fileID: 21300000, guid: 164f3cf9464351d4c82f30349e33f689, type: 3}
+  - {fileID: 21300000, guid: 7a7a82c0c5e93fb47a1c993f33e05a67, type: 3}
+  - {fileID: 21300000, guid: 8a7b714d85299544fa0920ac51e04847, type: 3}
+  deadSprite: {fileID: 0}
+  enemyPrefab: {fileID: 6649723048165353593, guid: 1019625068c5fa043be1af976142c4f6, type: 3}

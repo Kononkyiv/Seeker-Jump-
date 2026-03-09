@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf75bd38843dcc48b0bf332f1f40ce4, type: 3}
+  m_Name: GhostEnemyConfig
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyConfig
+  type: 1
+  maxHealth: 1
+  damage: 1
+  moveSpeed: 1
+  scoreReward: 100
+  scorePenaltyOnHit: 50
+  moveFullWidth: 1
+  moveRangeX: 4
+  spawnWeight: 0.233
+  idleSprites:
+  - {fileID: 21300000, guid: b0b14e7d41bddf843a64d163af8cbae4, type: 3}
+  - {fileID: 21300000, guid: 6dc0063473bcbac47bf7440cf994c869, type: 3}
+  - {fileID: 21300000, guid: f5541a666c7febc46b5ac890fa434a25, type: 3}
+  - {fileID: 21300000, guid: b5ba0cab87237f44696bddebf1a125fc, type: 3}
+  deadSprite: {fileID: 0}
+  enemyPrefab: {fileID: 5122084673545649669, guid: ea688f12b8bba294c88f65eaf0e690ac, type: 3}
